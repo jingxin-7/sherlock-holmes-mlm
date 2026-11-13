@@ -1,0 +1,27 @@
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Datasets and course materials
+*.csv
+*.zip
+books/
+resources/
+
+# Generated files
+replay/
+cache/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Personal environments and secrets
+.env
+.env.*
+.venv/
+venv/
+
+# Instructor evaluation
+evaluate_model.ipynb
